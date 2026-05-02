@@ -1,2 +1,6 @@
 # ml-homework
-my homework for machine learning
+В данном домашнем задании используется пакетный менеджер uv
+установка uv: pip install uv
+создание виртуального окружения версии с версией Python 3.14: uv venv --python 3.14
+активация виртуального окружения: .venv\Scripts\activate
+установка зависимостей из pyproject.toml: uv sync
