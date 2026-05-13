@@ -25,7 +25,7 @@ def blur_image(X):
     Returns:
     - X_blur: Blurred version of X, of shape (N, 3, H, W)
     """
-    from ..classifiers.fast_layers import conv_forward_fast
+    from ..classifiers import conv_forward_fast
 
     w_blur = np.zeros((3, 3, 3, 3))
     b_blur = np.zeros(3)

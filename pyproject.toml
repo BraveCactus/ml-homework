@@ -20,6 +20,7 @@ dependencies = [
     "imageio>=2.37.3",
     "future>=1.0.0",
     "six>=1.17.0",
+    "torch>=2.11.0",
 ]
 
 [dependency-groups]
